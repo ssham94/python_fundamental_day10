@@ -10,8 +10,10 @@ venues = [
 
 ]
 
+# Instantiate empty list to store venuew that meet requirement
 new_list = []
 
+# Looping through the list
 for venue in venues:
     if venue['city'] ==  "Toronto" and venue['wheelchair_accessible'] == True and venue['capacity'] >= 150:
         new_list.append(venue)
